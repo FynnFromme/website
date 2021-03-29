@@ -99,7 +99,7 @@ button {
   color: rgb(230, 175, 46);
 
   background: linear-gradient(rgba(39, 39, 39, 0), rgb(39, 39, 39)),
-    url("../img/background.jpg") center/cover no-repeat;
+    url("../img/background.jpg") center/cover no-repeat fixed;
 }
 
 h1 {
@@ -203,8 +203,8 @@ h1 {
     font-weight: 900;
     color: rgb(230, 175, 46);
 
-    background: 
-      url("../img/background_mobile.png") center cover no-repeat;
+    background: url("../img/background_mobile.png") center cover no-repeat;
+    background-attachment: unset;
 
   }
 }
