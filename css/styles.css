@@ -112,7 +112,7 @@ button {
   color: rgb(230, 175, 46);
 
   background: linear-gradient(rgba(39, 39, 39, 0), rgb(39, 39, 39)),
-    url("./img/background.jpg") center/cover no-repeat fixed;
+    url("../img/background.jpg") center/cover no-repeat fixed;
 }
 
 h1 {
