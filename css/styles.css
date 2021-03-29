@@ -203,8 +203,8 @@ h1 {
     font-weight: 900;
     color: rgb(230, 175, 46);
 
-    background: linear-gradient(rgba(39, 39, 39, 0), rgb(39, 39, 39)),
-      url("../img/background_mobile.png") center/cover no-repeat fixed;
+    background: 
+      url("../img/background_mobile.png") center cover no-repeat;
   }
 }
 
