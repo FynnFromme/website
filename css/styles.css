@@ -82,7 +82,7 @@ button {
   background-color: rgb(236, 192, 91);
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .nav__links li a,
   .navbar button {
     font-size: 20px;
@@ -151,7 +151,7 @@ h1 {
 
 #main p {
   max-width: 90rem;
-  color:rgb(236, 192, 91);
+  color: rgb(236, 192, 91);
 }
 
 #second {
