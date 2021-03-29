@@ -63,7 +63,6 @@ button {
 
 .nav__links li a:hover {
   color: rgb(236, 192, 91);
-  /* font-weight: 500; */
   font-size: 27px;
   transition: ease-in-out all 200ms;
 }
@@ -85,15 +84,28 @@ button {
 @media screen and (max-width: 800px) {
   .nav__links li a,
   .navbar button {
-    font-size: 20px;
+    font-size: 3vw;
   }
-
+  
   .navbar {
-    padding: 7px 5%;
+    padding: 7px 2vw;
+  }
+  
+  .navbar .logo {
+    width: 8vw;
+  }
+  
+  .front__page h1 {
+    
+    transition: ease-in-out all 100ms;
+    font-size: 22vw;
+    margin-top: 12vh;
+    line-height: 12px;
+    margin-top: 1000px;
   }
 
-  .navbar .logo {
-    width: 40px;
+  .nav__links li a:hover {
+    font-size: 4vw;
   }
 }
 
