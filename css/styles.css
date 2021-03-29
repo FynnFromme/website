@@ -86,26 +86,43 @@ button {
   .navbar button {
     font-size: 3vw;
   }
+
+  .nav__links li a {
+    right: auto;
+    padding: 1vw 0vw;
+  }
   
   .navbar {
-    padding: 7px 2vw;
+    padding: 2vw 2vw;
   }
   
   .navbar .logo {
-    width: 8vw;
+    width: 7vw;
   }
   
-  .front__page h1 {
-    
-    transition: ease-in-out all 100ms;
-    font-size: 22vw;
-    margin-top: 12vh;
-    line-height: 12px;
-    margin-top: 1000px;
+  .front__page #title {
+
+    transition: ease-in-out all 150ms;
+    font-size: 25vw;
+    /* margin-top: 12vh; */
+    line-height: 20vw;
   }
 
   .nav__links li a:hover {
     font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar .logo {
+    display: none;
+  }
+
+  .navbar {
+    justify-content: center;
+    align-items: center;
+    padding: 2vw 1vw;
+    justify-content: center;
   }
 }
 
