@@ -1,0 +1,168 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(230, 175, 46);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+body {
+  background: rgb(39, 39, 39);
+}
+
+header.topbar {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(39, 39, 39, 0.9);
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.navbar li,
+a,
+button {
+  font-weight: 300;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  padding: 10px 10%;
+
+  align-items: center;
+  justify-content: space-between;
+
+  text-align: center;
+  font-size: 25px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.navbar .nav__links {
+  list-style: none;
+}
+
+.navbar .nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: ease-in-out all 40ms;
+}
+
+.nav__links li a:hover {
+  color: rgb(236, 192, 91);
+  /* font-weight: 500; */
+  font-size: 27px;
+  transition: ease-in-out all 200ms;
+}
+
+.navbar button {
+  color: white;
+  padding: 3px 15px;
+  background-color: rgb(230, 175, 46);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.navbar button:hover {
+  background-color: rgb(236, 192, 91);
+}
+
+@media screen and (max-width:800px) {
+  .nav__links li a,
+  .navbar button {
+    font-size: 20px;
+  }
+
+  .navbar {
+    padding: 7px 5%;
+  }
+
+  .navbar .logo {
+    width: 40px;
+  }
+}
+
+.front__page {
+  min-height: 100vh;
+  padding: 0 75px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  font-size: 80px;
+  font-weight: 900;
+  color: rgb(230, 175, 46);
+
+  background: linear-gradient(rgba(39, 39, 39, 0), rgb(39, 39, 39)),
+    url("./img/background.jpg") center/cover no-repeat fixed;
+}
+
+h1 {
+  font-family: "Indie Flower", cursive;
+}
+
+.front__page h1 {
+  margin-top: 12vh;
+  line-height: 120px;
+}
+
+.front__page h3 {
+  margin-top: 3rem;
+  font-size: 20px;
+}
+
+#arrow_down {
+  margin-top: 1rem;
+  fill: rgb(230, 175, 46);
+  transition: ease-in-out all 300ms;
+}
+
+#arrow_down:hover {
+  margin-top: 3rem;
+  transition: ease-in-out all 300ms;
+  fill: rgb(236, 192, 91);
+}
+
+.page {
+  padding: 5rem 7vw;
+}
+
+#main {
+  font-size: 25px;
+}
+
+#main p {
+  max-width: 90rem;
+  color:rgb(236, 192, 91);
+}
+
+#second {
+  min-height: 70vh;
+  background-color: rgb(43, 42, 42);
+}
+
+#third {
+  min-height: 70vh;
+}
+
+#caption {
+  font-style: oblique;
+}
