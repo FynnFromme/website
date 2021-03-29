@@ -154,8 +154,8 @@ h1 {
   font-style: oblique;
 }
 
-/* Tablets */
-@media only screen and (max-width: 1024px) {
+/* iOS Devices */
+@supports (-webkit-touch-callout: none) {
   .front__page {
     background: url("../img/background_mobile.png") center cover no-repeat;
     background-attachment: unset;
@@ -195,12 +195,6 @@ h1 {
 
   .nav__links li a:hover {
     font-size: 3vw;
-  }
-
-  .front__page {
-    background: url("../img/background_mobile.png") center cover no-repeat;
-    background-attachment: unset;
-
   }
 }
 
