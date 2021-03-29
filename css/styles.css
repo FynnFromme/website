@@ -82,7 +82,7 @@ button {
   background-color: rgb(236, 192, 91);
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .nav__links li a,
   .navbar button {
     font-size: 20px;
@@ -112,7 +112,7 @@ button {
   color: rgb(230, 175, 46);
 
   background: linear-gradient(rgba(39, 39, 39, 0), rgb(39, 39, 39)),
-    url("./img/background.jpg") center/cover no-repeat fixed;
+    url("../img/background.jpg") center/cover no-repeat fixed;
 }
 
 h1 {
@@ -151,7 +151,7 @@ h1 {
 
 #main p {
   max-width: 90rem;
-  color:rgb(236, 192, 91);
+  color: rgb(236, 192, 91);
 }
 
 #second {
