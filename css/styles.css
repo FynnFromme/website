@@ -154,8 +154,16 @@ h1 {
   font-style: oblique;
 }
 
+/* Tablets */
+@media only screen and (max-width: 1024px) {
+  .front__page {
+    background: url("../img/background_mobile.png") center cover no-repeat;
+    background-attachment: unset;
+  }
+}
 
-@media screen and (max-width: 768px) {
+/* Smartphones */
+@media only screen and (max-width: 768px) {
   .nav__links li a,
   .navbar button {
     font-size: 3vw;
@@ -190,26 +198,13 @@ h1 {
   }
 
   .front__page {
-    min-height: 100vh;
-    padding: 0 75px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    text-transform: capitalize;
-
-    font-size: 80px;
-    font-weight: 900;
-    color: rgb(230, 175, 46);
-
     background: url("../img/background_mobile.png") center cover no-repeat;
     background-attachment: unset;
 
   }
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
 
   .navbar .logo {
     display: none;
@@ -223,7 +218,7 @@ h1 {
   }
 }
 
-@media screen and (max-height: 500px) {
+@media only screen and (max-height: 500px) {
   .nav__links li a,
   .navbar button {
     font-size: 5vh;
@@ -258,7 +253,7 @@ h1 {
   }
 }
 
-@media screen and (max-height: 350px) {
+@media only screen and (max-height: 350px) {
 
   .navbar .logo {
     display: none;
