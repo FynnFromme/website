@@ -210,7 +210,7 @@ h1 {
 }
 
 /* Smartphone landscape */
-@media screen and (max-height: 850px) {
+@media only screen and (max-height: 500px) {
   .nav__links li a,
   .navbar button {
     font-size: 5vh;
