@@ -84,7 +84,78 @@ button {
   background-color: rgb(236, 192, 91);
 }
 
-@media screen and (max-width: 800px) {
+.front__page {
+  min-height: 100vh;
+  padding: 0 75px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize;
+
+  font-size: 80px;
+  font-weight: 900;
+  color: rgb(230, 175, 46);
+
+  background: linear-gradient(rgba(39, 39, 39, 0), rgb(39, 39, 39)),
+    url("../img/background.jpg") center/cover no-repeat fixed;
+}
+
+h1 {
+  font-family: "Indie Flower", cursive;
+}
+
+.front__page h1 {
+  margin-top: 12vh;
+  line-height: 120px;
+}
+
+.front__page h3 {
+  margin-top: 3rem;
+  font-size: 27px;
+}
+
+#arrow_down {
+  margin-top: 1rem;
+  fill: rgb(230, 175, 46);
+  transition: ease-in-out all 300ms;
+}
+
+#arrow_down:hover {
+  margin-top: 3rem;
+  transition: ease-in-out all 300ms;
+  fill: rgb(236, 192, 91);
+}
+
+.page {
+  padding: 5rem 7vw;
+}
+
+#main {
+  font-size: 25px;
+}
+
+#main p {
+  max-width: 90rem;
+  color: rgb(236, 192, 91);
+}
+
+#second {
+  min-height: 70vh;
+  background-color: rgb(43, 42, 42);
+}
+
+#third {
+  min-height: 70vh;
+}
+
+#caption {
+  font-style: oblique;
+}
+
+
+@media screen and (max-width: 768px) {
   .nav__links li a,
   .navbar button {
     font-size: 3vw;
@@ -94,6 +165,10 @@ button {
     right: auto;
     padding: 1vw 0vw;
   }
+
+  .navbar .nav__links li {
+  padding: 0px 5vw;
+}
   
   .navbar {
     padding: 2vw 2vw;
@@ -112,6 +187,24 @@ button {
 
   .nav__links li a:hover {
     font-size: 3vw;
+  }
+
+  .front__page {
+    min-height: 100vh;
+    padding: 0 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: capitalize;
+
+    font-size: 80px;
+    font-weight: 900;
+    color: rgb(230, 175, 46);
+
+    background: linear-gradient(rgba(39, 39, 39, 0), rgb(39, 39, 39)),
+      url("../img/background_mobile.png") center/cover no-repeat fixed;
   }
 }
 
@@ -176,74 +269,4 @@ button {
     padding: 2vh 1vh;
     justify-content: center;
   }
-}
-
-.front__page {
-  min-height: 100vh;
-  padding: 0 75px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  text-transform: capitalize;
-
-  font-size: 80px;
-  font-weight: 900;
-  color: rgb(230, 175, 46);
-
-  background: linear-gradient(rgba(39, 39, 39, 0), rgb(39, 39, 39)),
-    url("../img/background.jpg") center/cover no-repeat fixed;
-}
-
-h1 {
-  font-family: "Indie Flower", cursive;
-}
-
-.front__page h1 {
-  margin-top: 12vh;
-  line-height: 120px;
-}
-
-.front__page h3 {
-  margin-top: 3rem;
-  font-size: 20px;
-}
-
-#arrow_down {
-  margin-top: 1rem;
-  fill: rgb(230, 175, 46);
-  transition: ease-in-out all 300ms;
-}
-
-#arrow_down:hover {
-  margin-top: 3rem;
-  transition: ease-in-out all 300ms;
-  fill: rgb(236, 192, 91);
-}
-
-.page {
-  padding: 5rem 7vw;
-}
-
-#main {
-  font-size: 25px;
-}
-
-#main p {
-  max-width: 90rem;
-  color: rgb(236, 192, 91);
-}
-
-#second {
-  min-height: 70vh;
-  background-color: rgb(43, 42, 42);
-}
-
-#third {
-  min-height: 70vh;
-}
-
-#caption {
-  font-style: oblique;
 }
